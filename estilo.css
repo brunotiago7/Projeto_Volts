@@ -31,10 +31,15 @@
     margin: 15px 0;
 }
 #box_login input{
-    width: 99%;
+    width: 83%;
     line-height: 1.5em;
     font-size: 1.5em;
-    margin: 10px auto;
+    border: none;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+#box_login input:focus{
+    outline: none !important;
 }
 #box_login form{
     display: flex;
@@ -54,4 +59,53 @@
     font-size: 20px;
     margin-top: 10px;
     font-family: monospace;
+}
+.usuario{
+    background-color:white;
+    height: 40px;
+    margin: 10px auto;
+    width: 100%;
+}
+.usuario i{
+    margin-left: 15px;
+    color: #192559;
+}
+#topo{
+    background-color: #192559;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}#topo div{
+    height: 100%;
+    color: white;
+    min-width: 50px;
+    display: flex;
+    align-items: center;
+}
+#menu{
+    font-size: 80px;
+    width: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu:hover{
+    background-color: green;
+}
+#sair{
+font-size: 50px;
+font-family: monospace;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 3.5em;
+}
+#sair:hover{
+    background-color: green;
+}
+#sair a{
+    text-decoration: none;
+    color: white;
+    font-size: 70%;
 }
