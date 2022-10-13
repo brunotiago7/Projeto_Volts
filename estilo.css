@@ -1,3 +1,8 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 *{
     margin: 0;
     padding: 0;
@@ -108,4 +113,43 @@ width: 3.5em;
     text-decoration: none;
     color: white;
     font-size: 70%;
+}
+.marcar_ponto{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo_menu{
+    display: flex;
+    justify-content: center;
+}
+.marcar_ponto img{
+    width: 15vw;
+    margin: 15px;
+}
+.box_marcar_ponto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(252, 252, 252, 0.911);
+    height: 45vh;
+    width: 45vw;
+}
+#menu_marcar_ponto{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#menu_marcar_ponto img{
+width: 50px;
+}
+#horario_data{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
 }
